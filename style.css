@@ -19,8 +19,8 @@ main {
 }
 
 .heart {
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   clip-path: url(#heart-clip);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -69,4 +69,7 @@ main {
 .control {
   display: grid;
   grid-template-columns: 50% 50%;
+}
+#hit-button,#heal-button,#add-heart-container-button,#overheal-button{
+  height: 50px;
 }
